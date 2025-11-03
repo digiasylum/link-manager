@@ -1,0 +1,141 @@
+/* Admin page wrapper */
+.link-manager-wrap {
+    padding: 20px;
+}
+
+/* Make Bootstrap container play nice in WP admin */
+.link-manager-wrap.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* General Table styling for non-bootstrap tables */
+.link-manager-wrap table.widefat {
+    margin-top: 0;
+    border-top: none;
+}
+
+/* Custom styles for Bootstrap integration */
+.link-manager-wrap .card {
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.link-manager-wrap .card-header {
+    background-color: #f6f7f7;
+    border-bottom: 1px solid #ddd;
+}
+.link-manager-wrap .table {
+    margin-top: 15px;
+    font-size: 13px;
+}
+.link-manager-wrap .table code {
+    word-break: break-all;
+}
+
+.link-type-header {
+    background: #f7f7f7;
+    font-weight: bold;
+    padding: 8px 12px !important;
+    font-size: 1.1em;
+}
+
+/* Toggle Switch Alignment & Sizing */
+.lm-link-editor-table .custom-control.custom-switch {
+    justify-content: center;
+    display: flex;
+    padding-left: 0;
+}
+.lm-link-editor-table .custom-control-label::before,
+.lm-link-editor-table .custom-control-label::after {
+    top: 0.1rem;
+    left: -2.25rem;
+}
+
+/* --- START: Definitive Integrated Table Header Styles (Increased Specificity) --- */
+.lm-table-wrapper {
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.link-manager-wrap .lm-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 10px 12px;
+    background: #f6f7f7;
+    border-bottom: 1px solid #c3c4c7;
+}
+.link-manager-wrap .form-inline {
+    display: flex !important;
+}
+/* --- END: Definitive Integrated Table Header Styles --- */
+
+
+/* Admin notices and alerts */
+.link-manager-wrap .notice,
+.link-manager-wrap .alert {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Overview Table Column Classes */
+.lm-overview-table .lm-col-title { width: 40%; }
+.lm-overview-table .lm-col-type { width: 10%; }
+.lm-overview-table .lm-col-internal,
+.lm-overview-table .lm-col-external { width: 15%; text-align: center; }
+.lm-overview-table .lm-col-actions { width: 15%; text-align: center; }
+
+.lm-overview-table td { text-align: left; }
+.lm-overview-table th.lm-col-internal,
+.lm-overview-table td[data-colname="Internal Links"],
+.lm-overview-table th.lm-col-external,
+.lm-overview-table td[data-colname="External Links"],
+.lm-overview-table th.lm-col-actions,
+.lm-overview-table td[data-colname="Actions"] { text-align: center; }
+
+/* Dashboard Widget Styling */
+.lm-dashboard-widget-content table.lm-dashboard-stats-table {
+    width: 100%;
+}
+
+/* --- START: Definitive Pagination Styles (Increased Specificity) --- */
+.link-manager-wrap .tablenav {
+    padding: 10px 0;
+    width: 100%;
+}
+.link-manager-wrap .tablenav-pages {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.link-manager-wrap .tablenav-pages a,
+.link-manager-wrap .tablenav-pages span {
+    text-decoration: none;
+    padding: 6px 12px;
+    margin-left: 4px;
+    border: 1px solid #c3c4c7;
+    background-color: #f6f7f7;
+    color: #0073aa;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+.link-manager-wrap .tablenav-pages a:hover {
+    background-color: #f0f0f1;
+    border-color: #0073aa;
+    color: #0073aa;
+}
+.link-manager-wrap .tablenav-pages span.current {
+    background-color: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+    font-weight: bold;
+    cursor: default;
+}
+.link-manager-wrap .tablenav-pages .dots {
+    border: none;
+    background: transparent;
+    padding: 6px 4px;
+}
+/* --- END: Definitive Pagination Styles --- */
