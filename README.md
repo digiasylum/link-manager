@@ -87,7 +87,7 @@ It also includes a manual editor, an analytics dashboard, and flexible settings 
 ## Installation
 
 ### Method 1: From the WordPress Admin Dashboard
-1. Download the latest ZIP package from the [releases page](../../releases).
+1. Download the latest ZIP package by direct Github menu.
 2. Go to **Plugins → Add New → Upload Plugin** in your WordPress dashboard.
 3. Upload the ZIP file and activate the plugin.
 4. Access the settings under **Settings → Link Manager**.
