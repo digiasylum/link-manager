@@ -3,6 +3,8 @@
 Link Manager for WordPress helps businesses, bloggers, and SEO professionals manage external links with ease. It automatically adds and controls nofollow, sponsored, UGC and other attributes, ensuring SEO compliance and transparency. Includes analytics, per-post editing, and customizable settings for full link control. 
 
 ---
+<img width="1709" height="823" alt="Screenshot 2025-11-03 140244" src="https://github.com/user-attachments/assets/cb017809-16e7-4fee-8c02-89a85d4dfbbe" />
+
 
 ## Overview
 
@@ -15,6 +17,8 @@ It also includes a manual editor, an analytics dashboard, and flexible settings 
 ---
 
 ## Key Features
+<img width="1706" height="815" alt="Screenshot 2025-11-03 140358" src="https://github.com/user-attachments/assets/3be2c093-c32c-4fcb-a463-f5a4538c4461" />
+
 
 ### 1. Automatic Attribute Management
 - Detects all external links in post content.
@@ -38,6 +42,8 @@ It also includes a manual editor, an analytics dashboard, and flexible settings 
 - Helps identify posts with high numbers of outbound links or missing attributes.
 
 ### 4. Global Plugin Settings
+<img width="996" height="636" alt="Screenshot 2025-11-03 140524" src="https://github.com/user-attachments/assets/05f08c94-ea37-4f9c-b667-f3a50c5bae49" />
+
 - Configure default behavior for automatic link handling.
 - Choose which post types are scanned (posts, pages, or custom types).
 - Enable or disable automatic attribute assignment globally.
