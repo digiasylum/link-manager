@@ -56,6 +56,7 @@ It also includes a manual editor, an analytics dashboard, and flexible settings 
 - All functions use a consistent prefix (`lm_`) to prevent naming conflicts.
 - Includes WordPress hooks for extending functionality.
 - Written with modular include files for easy maintenance and contribution.
+<img width="1015" height="712" alt="Screenshot 2025-11-03 140800" src="https://github.com/user-attachments/assets/a694b78c-f908-41d2-a4d5-0c1074f75cd1" />
 
 ---
 
